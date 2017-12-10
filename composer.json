@@ -1,0 +1,16 @@
+{
+  "name": "semexpert/language-es_ar",
+  "description": "Spanish (Argentina) language pack",
+  "require": {
+    "magento/framework": "101.0.*"
+  },
+  "type": "magento2-language",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+  }
+}
