@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::LANGUAGE, 'magento_es_ar', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::LANGUAGE, 'semexpert_es_ar', __DIR__);
