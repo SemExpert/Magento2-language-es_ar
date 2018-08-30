@@ -33,7 +33,7 @@ Para agregar el paquete a una instalación de Magento 2, sólo hace falta hacerl
 versión de Magento 2
 
 ```
-composer require semexpert/language-es_ar:2.1.8
+composer require semexpert/language-es_ar:dev-m2-2.2.1
 ``` 
 
 ### Contribuciones
