@@ -51,20 +51,20 @@ atribuido.
 
 ## Versioning
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para las versiones disponibles, mirá los
-[tags de este repositorio](https://github.com/SemExpert/Magento2-language-es_ar/tags). 
+Usamos [SemVer](http://semver.org/) para el versionado con algunas modificaciones. Para las versiones disponibles, mirá
+los [tags de este repositorio](https://github.com/SemExpert/Magento2-language-es_ar/tags). 
 
 La numeración de las versiones es la misma que la de Magento para simplificar la instalación. Cada nuevo build del 
-diccionario contiene un identificado de pre-release con el número de build correspondiente a esa versión.
+diccionario contiene un cuarto dígito con el número de build correspondiente a esa versión.
 
 Por ejemplo:
 
-* 2.1.8-1
-* 2.2.0-1
-* 2.2.0-2
-* 2.2.1-1
-* 2.2.1-2
-* 2.2.1-3
+* 2.1.8.1
+* 2.2.0.1
+* 2.2.0.2
+* 2.2.1.1
+* 2.2.1.2
+* 2.2.1.3
 
 Se aceptan sugerencias para mejorar este sistema de versionado.
 
