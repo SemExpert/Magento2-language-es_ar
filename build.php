@@ -23,7 +23,7 @@ function downloadPackage()
     $target = fopen('./tmp/package.zip', 'w+');
     $debug = fopen('./tmp/debug.log', 'w+');
 
-    $packageUrl = 'https://crowdin.com/download/project/magento-2/es-AR.zip';
+    $packageUrl = 'https://crowdin.com/backend/download/project/magento-2/es-AR.zip';
     $curl = curl_init($packageUrl);
 
     curl_setopt_array(
