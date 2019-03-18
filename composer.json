@@ -2,7 +2,7 @@
   "name": "semexpert/language-es_ar",
   "description": "Spanish (Argentina) language pack",
   "require": {
-    "magento/framework": "101.0.*"
+    "magento/framework": "101.0.*|102.*.*"
   },
   "type": "magento2-language",
   "license": [
