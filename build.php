@@ -5,12 +5,11 @@
 
 function main($argv = [])
 {
-    if (empty($argv[1])) {
-        echo "Version not specified\n";
-        return 1;
+    if (!empty($argv[1])) {
+        echo "Versions are deprecated. Only master branch is being used.\n";
     }
 
-    return downloadPackage() || unzipPackage() || compileTranslation($argv[1]);
+    return downloadPackage() || unzipPackage() || compileTranslation();
 
 }
 
@@ -71,11 +70,9 @@ function unzipPackage()
     return 0;
 }
 
-function compileTranslation($targetVersion)
+function compileTranslation()
 {
-    $versions = collectVersions();
-
-    $actualVersion = getActualVersion($targetVersion, $versions);
+    $actualVersion = 'master';
 
     $rows = array_merge(
         compilePart('module', './tmp/src/' . $actualVersion . '/app/code'),
