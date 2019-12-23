@@ -2422,7 +2422,7 @@ Bottom,Abajo,module,Magento_VisualMerchandiser
 Bottom/Left,Inferior/izquierda,module,Magento_Catalog
 Bottom/Right,Inferior/derecha,module,Magento_Catalog
 Braintree,Braintree,module,Magento_Braintree
-"Braintree Settlement","{""Securely login into our website using your existing Amazon details."":""Securely login to our website using your existing Amazon details.""}",module,Magento_Braintree
+"Braintree Settlement","Solución de Braintree",module,Magento_Braintree
 "Braintree Settlement Report","Informe de solución de Braintree",module,Magento_Braintree
 "Braintree error response.","Respuesta de error de Braintree.",module,Magento_Braintree
 "Brazil Installment Period","Brazil Installment Period",module,Magento_Paypal
